@@ -21,6 +21,7 @@ import {
 import { motion, AnimatePresence } from "motion/react";
 import logo from "./assets/logo.jpg";
 import logoSymbol from "./assets/logo-symbol.png";
+import heroPatternBanner from "./assets/images/hero_pattern_banner.jpg";
 import underTheSea from "./assets/under-the-sea.jpeg";
 
 
@@ -403,7 +404,7 @@ export default function App() {
         {/* Pattern Background with radial fade to deep aubergine */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/src/assets/images/hero_pattern_banner.jpg"
+            src={heroPatternBanner}
             alt="Snadia Creations Seamless Pattern Banner" 
             className="w-full h-full object-cover opacity-35 transform scale-105 select-none"
             referrerPolicy="no-referrer"
