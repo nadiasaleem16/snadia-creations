@@ -22,6 +22,15 @@ import { motion, AnimatePresence } from "motion/react";
 import logo from "./assets/logo.jpg";
 import logoSymbol from "./assets/logo-symbol.png";
 import heroPatternBanner from "./assets/images/hero_pattern_banner.jpg";
+import img1316a from "./assets/images/1316a.jpg";
+import img2164 from "./assets/images/2164.jpg";
+import img1800a from "./assets/images/1800a.jpg";
+import img1 from "./assets/images/1.jpeg";
+import img1800 from "./assets/images/1800.jpeg";
+import img1164 from "./assets/images/1164.jpeg";
+import img1639 from "./assets/images/1639.jpeg";
+import img2 from "./assets/images/2.jpeg";
+import img3 from "./assets/images/3.jpeg";
 import underTheSea from "./assets/under-the-sea.jpeg";
 
 
@@ -74,7 +83,7 @@ const PORTFOLIO_DATA: PatternItem[] = [
   title: "Mughal Garden",
   category: "Fabric",
   details: "Rich cobalt blue storytelling in classic Toile de Jouy style — an ornate architectural pavilion surrounded by majestic peacocks, palm trees, and delicate birds, capturing timeless heritage elegance.",
-  image: "/src/assets/images/1316a.jpg",
+  image: img1316a,
   featured: true,
   designId: "19470156",
   marketplaceLinks: {
@@ -88,7 +97,7 @@ const PORTFOLIO_DATA: PatternItem[] = [
     title: "Flora Deco - Neoclassical Floral Frame Lilac Aqua Blue",
     category: "wallpaper",
     description: "Bright neoclassical floral bouquet framed by elegant scrollwork. Vibrant cool-toned palette of lilac, light lavender, ice blue, and aqua. Perfect for grandmillennial interiors, whimsical nurseries, and preppy maximalist bedroom spaces.",
-    image: "/src/assets/images/2164.jpg",
+    image: img2164,
     featured: false,
     designId: "22752519",
     marketplaceLinks: {
@@ -102,7 +111,7 @@ const PORTFOLIO_DATA: PatternItem[] = [
   category: "Fabric",
   description: "Bold geometric pattern featuring horizontal bands of interlocking triangles, chevrons, and intricate linear motifs. Sophisticated dark palette of deep teal, sage green, and warm gold. Ideal for modern eclectic interiors, statement wallpaper, and stylish home decor.",
   details: "Bold geometric pattern featuring horizontal bands of interlocking triangles, chevrons, and intricate linear motifs. Sophisticated dark palette of deep teal, sage green, and warm gold. Ideal for modern eclectic interiors, statement wallpaper, and stylish home decor.",
-  image: "/src/assets/images/1800a.jpg",
+  image: img1800a,
   featured: false,
   designId: "20382578",
   marketplaceLinks: {
@@ -116,7 +125,7 @@ const PORTFOLIO_DATA: PatternItem[] = [
   category: "Product",
   description: "Playful nautical pattern featuring textured red prawns, ship steering wheels, anchors, and intertwined ropes. Warm vintage color palette of sandy beige, rust red, and tan. Perfect for coastal kitchens, seaside homes, and themed decor.",
   details: "Playful nautical pattern featuring textured red prawns, ship steering wheels, anchors, and intertwined ropes. Warm vintage color palette of sandy beige, rust red, and tan. Perfect for coastal kitchens, seaside homes, and themed decor.",
-  image: "/src/assets/images/1.jpeg",
+  image: img1,
   featured: false,
   marketplaceLinks: {
     zazzle: "https://www.zazzle.com/store/snadiacreations"
@@ -128,7 +137,7 @@ const PORTFOLIO_DATA: PatternItem[] = [
   category: "Fabric",
   description: "Whimsical collage pattern featuring a mix of abstracted animal prints including leopard spots, tiger stripes, and mosaic patches. Playful multi-color palette of sky blue, plum, magenta, and lime green. Perfect for bold eclectic interiors and creative fashion.",
   details: "Whimsical collage pattern featuring a mix of abstracted animal prints including leopard spots, tiger stripes, and mosaic patches. Playful multi-color palette of sky blue, plum, magenta, and lime green. Perfect for bold eclectic interiors and creative fashion.",
-  image: "/src/assets/images/1800.jpeg",
+  	image: img1800,
   featured: false,
   designId: "20389332",
   marketplaceLinks: {
@@ -142,7 +151,7 @@ const PORTFOLIO_DATA: PatternItem[] = [
   category: "Product",
   description: "Soft peach plaid check pattern featuring minimal grid lines and warm cream tones. Ideal for gender-neutral modern nurseries, cozy farmhouse kids rooms, and playful interior spaces.",
   details: "Soft peach plaid check pattern featuring minimal grid lines and warm cream tones. Ideal for gender-neutral modern nurseries, cozy farmhouse kids rooms, and playful interior spaces.",
-  image: "/src/assets/images/1164.jpeg",
+  image: img1164,
   featured: false,
   marketplaceLinks: {
   redbubble: "https://www.redbubble.com/people/nadiacreativity"
@@ -155,7 +164,7 @@ const PORTFOLIO_DATA: PatternItem[] = [
   category: "Wallpaper",
   description: "Whimsical botanical pattern featuring majestic owls with expansive feathered wings framed by symmetrical scrolling vines and delicate flowers. Earthy palette of warm caramel, sage green, and cream. Perfect for cozy nature-inspired spaces and eclectic home decor.",
   details: "Whimsical botanical pattern featuring majestic owls with expansive feathered wings framed by symmetrical scrolling vines and delicate flowers. Earthy palette of warm caramel, sage green, and cream. Perfect for cozy nature-inspired spaces and eclectic home decor.",
-  image: "/src/assets/images/1639.jpeg",
+  image: img1639,
   featured: false,
   designId: "20034037",
   marketplaceLinks: {
@@ -170,7 +179,7 @@ const PORTFOLIO_DATA: PatternItem[] = [
   category: "Product",
   description: "A curated mix of nature-inspired designs — minimalist leaf line art, a celestial sun burst, a delicate wildflower, and festive holiday artwork — applied across apparel, accessories, and stationery.",
   details: "A curated mix of nature-inspired designs — minimalist leaf line art, a celestial sun burst, a delicate wildflower, and festive holiday artwork — applied across apparel, accessories, and stationery. Available on t-shirts, bucket hats, water bottles, and postcards.",
-  image: "/src/assets/images/2.jpeg",
+  image: img2,
   featured: false,
   marketplaceLinks: {
     redbubble: "https://www.redbubble.com/people/nadiacreativity"
@@ -183,7 +192,7 @@ const PORTFOLIO_DATA: PatternItem[] = [
   category: "Product",
   description: "A vibrant range of backpack designs — florals, dolphins, jellyfish, and abstract textures — applied to functional, everyday bags for kids and adults alike.",
   details: "A vibrant range of backpack designs — florals, dolphins, jellyfish, and abstract textures — applied to functional, everyday bags for kids and adults alike. Available in multiple colorways with customizable name options.",
-  image: "/src/assets/images/3.jpeg",
+  image: img3,
   featured: false,
   marketplaceLinks: {
     zazzle: "https://www.zazzle.com/store/snadiacreations"
