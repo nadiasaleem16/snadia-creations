@@ -1,0 +1,6 @@
+{
+  "name": "Snadia Creations",
+  "description": "An elegant surface pattern design portfolio website showcasing digital art mockups of Islamic geometric patterns, mandalas, and Mughal-inspired florals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

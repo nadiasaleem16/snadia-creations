@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", serif;
+  --font-sans: "Karla", sans-serif;
+  --color-brand-dark: #120914; /* Deep aubergine-black */
+  --color-brand-aubergine: #281430; /* Medium rich aubergine */
+  --color-brand-purple-light: #522f5e; /* Elegant light aubergine */
+  --color-brand-gold: #d4af37; /* Warm antique gold */
+  --color-brand-gold-hover: #b89225; /* Hover antique gold */
+  --color-brand-gold-light: #f3e5ab; /* Soft gold accent */
+  --color-brand-sapphire: #104e8b; /* Rich jewel blue */
+  --color-brand-emerald: #106b43; /* Rich jewel green */
+  --color-brand-ruby: #a31d34; /* Rich jewel ruby red */
+  --color-brand-teal: #107e85; /* Soft jewel teal */
+}
+
+body {
+  background-color: #120914;
+  color: #f7f3e8;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Elegant geometric scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #120914;
+}
+::-webkit-scrollbar-thumb {
+  background: #281430;
+  border: 2px solid #120914;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+/* Lightbox zoom animation */
+.lightbox-open {
+  animation: scaleUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
