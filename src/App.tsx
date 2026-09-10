@@ -414,7 +414,7 @@ export default function App() {
         <div className="absolute inset-0 z-0">
           <img 
             src={heroPatternBanner}
-            alt="Islamic geometric and Mughal-inspired seamless surface pattern design by Snadia Creations" 
+            alt="Moroccan geometric and Mughal-inspired seamless surface pattern design by Snadia Creations" 
             className="w-full h-full object-cover opacity-35 transform scale-105 select-none"
             referrerPolicy="no-referrer"
           />
